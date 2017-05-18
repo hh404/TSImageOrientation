@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852FB895E41D3457AE43A18F /* libPods-TSImageOrientation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 781C3CF8023CEF1944334B66 /* libPods-TSImageOrientation.a */; };
+		EC46CCAE1ECD4E190042DD34 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = EC46CCAD1ECD4E190042DD34 /* UIColor+Random.m */; };
+		EC8AA9F71ECC39670012C309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8AA9F61ECC39670012C309 /* main.m */; };
+		EC8AA9FA1ECC39670012C309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8AA9F91ECC39670012C309 /* AppDelegate.m */; };
+		EC8AA9FD1ECC39670012C309 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8AA9FC1ECC39670012C309 /* ViewController.m */; };
+		EC8AAA001ECC39670012C309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8AA9FE1ECC39670012C309 /* Main.storyboard */; };
+		EC8AAA021ECC39670012C309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8AAA011ECC39670012C309 /* Assets.xcassets */; };
+		EC8AAA051ECC39670012C309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8AAA031ECC39670012C309 /* LaunchScreen.storyboard */; };
+		EC8AAA101ECC413A0012C309 /* RawDirectionImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8AAA0D1ECC413A0012C309 /* RawDirectionImageView.m */; };
+		EC8AAA111ECC413A0012C309 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8AAA0F1ECC413A0012C309 /* UIImage+Utility.m */; };
+		EC8AAA141ECC4E520012C309 /* ImageDirectionParseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8AAA131ECC4E520012C309 /* ImageDirectionParseViewController.m */; };
+		EC8AAA191ECC4F0F0012C309 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8AAA151ECC4F0F0012C309 /* ImageCell.m */; };
+		EC8AAA1A1ECC4F0F0012C309 /* r2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8AAA171ECC4F0F0012C309 /* r2.png */; };
+		EC8AAA1B1ECC4F0F0012C309 /* r1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8AAA181ECC4F0F0012C309 /* r1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A88E852A899D2B6AFEC764E /* Pods-TSImageOrientation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSImageOrientation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSImageOrientation/Pods-TSImageOrientation.release.xcconfig"; sourceTree = "<group>"; };
+		781C3CF8023CEF1944334B66 /* libPods-TSImageOrientation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSImageOrientation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8260B288FF7891754DE34A04 /* Pods-TSImageOrientation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSImageOrientation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSImageOrientation/Pods-TSImageOrientation.debug.xcconfig"; sourceTree = "<group>"; };
+		EC46CCAC1ECD4E190042DD34 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		EC46CCAD1ECD4E190042DD34 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		EC8AA9F21ECC39670012C309 /* TSImageOrientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSImageOrientation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8AA9F61ECC39670012C309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8AA9F81ECC39670012C309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC8AA9F91ECC39670012C309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC8AA9FB1ECC39670012C309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC8AA9FC1ECC39670012C309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC8AA9FF1ECC39670012C309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8AAA011ECC39670012C309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8AAA041ECC39670012C309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC8AAA061ECC39670012C309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8AAA0C1ECC413A0012C309 /* RawDirectionImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RawDirectionImageView.h; sourceTree = "<group>"; };
+		EC8AAA0D1ECC413A0012C309 /* RawDirectionImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RawDirectionImageView.m; sourceTree = "<group>"; };
+		EC8AAA0E1ECC413A0012C309 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		EC8AAA0F1ECC413A0012C309 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		EC8AAA121ECC4E520012C309 /* ImageDirectionParseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDirectionParseViewController.h; sourceTree = "<group>"; };
+		EC8AAA131ECC4E520012C309 /* ImageDirectionParseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDirectionParseViewController.m; sourceTree = "<group>"; };
+		EC8AAA151ECC4F0F0012C309 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		EC8AAA161ECC4F0F0012C309 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		EC8AAA171ECC4F0F0012C309 /* r2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r2.png; sourceTree = "<group>"; };
+		EC8AAA181ECC4F0F0012C309 /* r1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8AA9EF1ECC39670012C309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852FB895E41D3457AE43A18F /* libPods-TSImageOrientation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2719D7875923D90EE4D2B23F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				781C3CF8023CEF1944334B66 /* libPods-TSImageOrientation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF5255F3B28A54DEFD2B81A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8260B288FF7891754DE34A04 /* Pods-TSImageOrientation.debug.xcconfig */,
+				3A88E852A899D2B6AFEC764E /* Pods-TSImageOrientation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC8AA9E91ECC39670012C309 = {
+			isa = PBXGroup;
+			children = (
+				EC8AA9F41ECC39670012C309 /* TSImageOrientation */,
+				EC8AA9F31ECC39670012C309 /* Products */,
+				BEF5255F3B28A54DEFD2B81A /* Pods */,
+				2719D7875923D90EE4D2B23F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8AA9F31ECC39670012C309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8AA9F21ECC39670012C309 /* TSImageOrientation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8AA9F41ECC39670012C309 /* TSImageOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				EC46CCAC1ECD4E190042DD34 /* UIColor+Random.h */,
+				EC46CCAD1ECD4E190042DD34 /* UIColor+Random.m */,
+				EC8AAA151ECC4F0F0012C309 /* ImageCell.m */,
+				EC8AAA161ECC4F0F0012C309 /* ImageCell.h */,
+				EC8AAA171ECC4F0F0012C309 /* r2.png */,
+				EC8AAA181ECC4F0F0012C309 /* r1.png */,
+				EC8AAA0C1ECC413A0012C309 /* RawDirectionImageView.h */,
+				EC8AAA0D1ECC413A0012C309 /* RawDirectionImageView.m */,
+				EC8AAA0E1ECC413A0012C309 /* UIImage+Utility.h */,
+				EC8AAA0F1ECC413A0012C309 /* UIImage+Utility.m */,
+				EC8AA9F81ECC39670012C309 /* AppDelegate.h */,
+				EC8AA9F91ECC39670012C309 /* AppDelegate.m */,
+				EC8AA9FB1ECC39670012C309 /* ViewController.h */,
+				EC8AA9FC1ECC39670012C309 /* ViewController.m */,
+				EC8AA9FE1ECC39670012C309 /* Main.storyboard */,
+				EC8AAA011ECC39670012C309 /* Assets.xcassets */,
+				EC8AAA031ECC39670012C309 /* LaunchScreen.storyboard */,
+				EC8AAA061ECC39670012C309 /* Info.plist */,
+				EC8AA9F51ECC39670012C309 /* Supporting Files */,
+				EC8AAA121ECC4E520012C309 /* ImageDirectionParseViewController.h */,
+				EC8AAA131ECC4E520012C309 /* ImageDirectionParseViewController.m */,
+			);
+			path = TSImageOrientation;
+			sourceTree = "<group>";
+		};
+		EC8AA9F51ECC39670012C309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8AA9F61ECC39670012C309 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8AA9F11ECC39670012C309 /* TSImageOrientation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8AAA091ECC39670012C309 /* Build configuration list for PBXNativeTarget "TSImageOrientation" */;
+			buildPhases = (
+				9C72631A3ED8ED3C9B0D8436 /* [CP] Check Pods Manifest.lock */,
+				EC8AA9EE1ECC39670012C309 /* Sources */,
+				EC8AA9EF1ECC39670012C309 /* Frameworks */,
+				EC8AA9F01ECC39670012C309 /* Resources */,
+				2828673CB28545043168D7B4 /* [CP] Embed Pods Frameworks */,
+				58E25AB8C64676CDEDE6FE62 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSImageOrientation;
+			productName = TSImageOrientation;
+			productReference = EC8AA9F21ECC39670012C309 /* TSImageOrientation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8AA9EA1ECC39670012C309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huangjianwu;
+				TargetAttributes = {
+					EC8AA9F11ECC39670012C309 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K3KX659AR4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC8AA9ED1ECC39670012C309 /* Build configuration list for PBXProject "TSImageOrientation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8AA9E91ECC39670012C309;
+			productRefGroup = EC8AA9F31ECC39670012C309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8AA9F11ECC39670012C309 /* TSImageOrientation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8AA9F01ECC39670012C309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8AAA1B1ECC4F0F0012C309 /* r1.png in Resources */,
+				EC8AAA051ECC39670012C309 /* LaunchScreen.storyboard in Resources */,
+				EC8AAA1A1ECC4F0F0012C309 /* r2.png in Resources */,
+				EC8AAA021ECC39670012C309 /* Assets.xcassets in Resources */,
+				EC8AAA001ECC39670012C309 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2828673CB28545043168D7B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSImageOrientation/Pods-TSImageOrientation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E25AB8C64676CDEDE6FE62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSImageOrientation/Pods-TSImageOrientation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C72631A3ED8ED3C9B0D8436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8AA9EE1ECC39670012C309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8AA9FD1ECC39670012C309 /* ViewController.m in Sources */,
+				EC8AA9FA1ECC39670012C309 /* AppDelegate.m in Sources */,
+				EC8AAA111ECC413A0012C309 /* UIImage+Utility.m in Sources */,
+				EC8AAA191ECC4F0F0012C309 /* ImageCell.m in Sources */,
+				EC46CCAE1ECD4E190042DD34 /* UIColor+Random.m in Sources */,
+				EC8AA9F71ECC39670012C309 /* main.m in Sources */,
+				EC8AAA141ECC4E520012C309 /* ImageDirectionParseViewController.m in Sources */,
+				EC8AAA101ECC413A0012C309 /* RawDirectionImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC8AA9FE1ECC39670012C309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8AA9FF1ECC39670012C309 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8AAA031ECC39670012C309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8AAA041ECC39670012C309 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8AAA071ECC39670012C309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8AAA081ECC39670012C309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8AAA0A1ECC39670012C309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8260B288FF7891754DE34A04 /* Pods-TSImageOrientation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = TSImageOrientation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.TSImageOrientation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EC8AAA0B1ECC39670012C309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A88E852A899D2B6AFEC764E /* Pods-TSImageOrientation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jianwu huang (K3KX659AR4)";
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = TSImageOrientation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.TSImageOrientation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8AA9ED1ECC39670012C309 /* Build configuration list for PBXProject "TSImageOrientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8AAA071ECC39670012C309 /* Debug */,
+				EC8AAA081ECC39670012C309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8AAA091ECC39670012C309 /* Build configuration list for PBXNativeTarget "TSImageOrientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8AAA0A1ECC39670012C309 /* Debug */,
+				EC8AAA0B1ECC39670012C309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8AA9EA1ECC39670012C309 /* Project object */;
+}
